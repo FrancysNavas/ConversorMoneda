@@ -1,5 +1,4 @@
-Challenge: CONVERSOR DE MONEDA
-## :dart: About ##
+## :dart: Challenge: CONVERSOR DE MONEDA ##
 
 Este es un conversor de monedas en Java utilizando la API de  que permite convertir entre diferentes divisas utilizando tasas de cambio actualizadas desde una API externa.
 
