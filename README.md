@@ -1,7 +1,7 @@
 Challenge: CONVERSOR DE MONEDA
 Este es un conversor de monedas en Java utilizando la API de  que permite convertir entre diferentes divisas utilizando tasas de cambio actualizadas desde una API externa.
 
-#hammerfuncionalidades-del-proyecto
+#hammer funcionalidades-del-proyecto
 Consulta las tasas de cambio entre varias monedas. Conversión en tiempo real basada en datos actualizados. Manejo de varias divisas y tasas de cambio. Actualización automática de tasas de cambio en intervalos definidos.
 
 Estructura del Proyecto
