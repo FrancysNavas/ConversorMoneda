@@ -1,30 +1,30 @@
 ## :dart: Challenge: CONVERSOR DE MONEDA ##
+Este challenge es un conversor de monedas/divisas en Java que permite a los usuarios calcular cambios entre diferentes monedas, utilizando tasas de cambio obtenidas de una API. El programa está diseñado para ser fácil de usar y puede manejar múltiples conversiones de manera eficiente.
 
-Este es un conversor de monedas en Java utilizando la API de  que permite convertir entre diferentes divisas utilizando tasas de cambio actualizadas desde una API externa.
-
-#hammer funcionalidades-del-proyecto
-## :white_check_mark: Requirements ##
+## :hammer: Funcionalidades del proyecto ##
 Consulta las tasas de cambio entre varias monedas. Conversión en tiempo real basada en datos actualizados. Manejo de varias divisas y tasas de cambio. Actualización automática de tasas de cambio en intervalos definidos.
 
-Estructura del Proyecto
-El proyecto está estructurado en varias clases clave:
+## :memo: Estructura del Proyecto ##
 
-Main: Punto de entrada del programa. Maneja la interacción principal del usuario.
+El proyecto está estructurado en varias clases:
 
-ConsultaDivisa: Responsable de realizar las consultas a la API para obtener las tasas de cambio.
+Principal: Punto de entrada del programa. Maneja la interacción principal del usuario.
 
-Divisa: Contiene información sobre una divisa, incluyendo la fecha de la última actualización y las tasas de cambio. Utiliza un Map<String, Double> para almacenar las tasas.
+ConsultaConversor: Responsable de realizar las consultas a la API para obtener las tasas de cambio.
 
-OpcionesMoneda: Maneja las opciones de divisas disponibles para la conversión.
+Conversor: Maneja las opciones de divisas disponibles para la conversión.
 
-Requisitos
-Para ejecutar este proyecto, asegúrate de tener instalado lo siguiente: Java 8 o superior. Conexión a internet (para obtener las tasas de cambio en tiempo real).
+GenerarArchivo: Uso de Gson para manejar archivos json y guardar en archivos con la extensión .json.
 
-Uso
-Al iniciar el programa, se te solicitará ingresar las monedas de origen. Luego, introduce la cantidad a convertir y posteriormente se dsplegara un menú con todas las opciones disponibles dentro de la API. Despues se solicita la moneda destino para que asi, el programa te mostre la cantidad convertida con base en las tasas actuales. Al final se muestra un pequeño menú para preguntar si deseass realizar alguna otra conversión, ya sea con la moneda inicial, cambiar de moneda o salir del programa.
+## :clipboard: Requisitos ##
+Para ejecutar este proyecto:
 
-API Utilizada
-Este proyecto consume la API Exchange Rate API de divisas que proporciona las tasas de cambio actualizadas. Asegúrate de tener acceso a una API válida. Las tasas de conversión se guardan temporalmente en el sistema para evitar consultas frecuentes.
+Java 8 o superior. 
 
-Contribuciones
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes sugerencias de mejora, por favor abre un issue o envía un pull request.
+Conexión a internet (para obtener las tasas de cambio en tiempo real).
+
+## :currency_exchange: Uso del programa
+El programa está diseñado para solicitar al usuario que seleccione un aopción de acuerdo al cambio que quiera realizar, luego ingresar el monto a cambiar y el sistema uzando la API de de ExchangeRate-API utilizando la API-KEY, devuleve el código de las monedas seleccionadas, el monto ingrsado y su cambio a la tasa actual. El menú tiene la opción de seguir funcionando o salir de la ejecución.
+
+## :chart:API Utilizada
+Este proyecto consume la API Exchange Rate API de divisas que proporciona las tasas de cambio actualizadas. 
